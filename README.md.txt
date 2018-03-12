@@ -3,7 +3,7 @@ Rett invest Webshop prototype
 Webshop, med produkt styring og Admin
 
 Brukerdel:
-Forside
+Forside-index.html
 Om side
 Produkt side
 Brukerprofil
