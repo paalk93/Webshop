@@ -14,10 +14,13 @@ danger- + dark/light
 inactive +dark/light
 */
 .primary{
-  color:#494949;
+  color:#0f0f0f
+}
+.primary-light{
+  color:#ffffff;
 }
 .secondary{
-  color:#ffffff;
+  color:#e8491d;
 }
 .accent{
   color:#ce8833;
@@ -34,15 +37,29 @@ inactive +dark/light
 .info{
   color:#f2ff00;
 }
-.background{
-  background-color:#dee1e5;
+.background-primary{
+  background-color:#f2f2f2;
 }
-.background2{
-  background-color:#e1e1e1;
+.background-secondary{
+  background-color:#35424a;
 }
 .border{
-  border:orange 3px double;
+  border:#e8491d 3px double;
 }
 .border-2{
-  border:#4e6487 3px double;
+  border:#35424a 3px double;
+}
+
+
+.red{
+  background-color:red;
+}
+.green{
+  background-color:green;
+}
+.blue{
+  background-color:blue;
+}
+.yellow{
+  background-color:yellow;
 }

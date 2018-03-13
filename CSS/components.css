@@ -1,0 +1,17 @@
+/* NAVBAR */
+.navbar{
+  border-bottom: solid 3px #e8491d;
+  position:sticky;
+}
+/* HEADLINER */
+.headliner{
+  border: double 3px #35424a;
+}
+/* BOXES */
+.boxes{
+  border:double 3px #35424a;
+}
+/* FOOTER */
+.footer{
+  border-top: solid 3px #e8491d;
+}

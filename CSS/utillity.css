@@ -1,10 +1,35 @@
-.viewport{
-  height:100%;
-  width:100%;
+body{
+  margin:0;
 }
+
+
+/* MARGIN AND PADDING*/
 .margin{
   margin:5px;
 }
 .padding{
   padding:5px;
+}
+.margin-center{
+  margin-left:auto;
+  margin-right:auto;
+}
+.margin-left{
+  margin-left:2%;
+}
+.margin-right{
+  margin-right:2%;
+}
+.height15{
+  height:15%;
+}
+.sticky{
+  position:sticky;
+}
+/* FONT AND TEXT*/
+.font-size{
+  font-size: 75px;
+}
+.text-align-center{
+  text-align:center;
 }
