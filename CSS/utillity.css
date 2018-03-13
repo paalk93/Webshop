@@ -15,10 +15,13 @@ body{
   margin-right:auto;
 }
 .margin-left{
-  margin-left:2%;
+  margin-left:10%;
 }
 .margin-right{
-  margin-right:2%;
+  margin-right:10%;
+}
+.padding-top{
+  padding-top:20px;
 }
 .height15{
   height:15%;
