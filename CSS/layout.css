@@ -12,39 +12,64 @@ body{
   height:100vh;
   width:100vw;
 }
-/* FLEX */
+/* FLEX*/
 .flex-container-row{
   display:flex;
   flex-direction:row;
-  justify-content:center;
+  height:100%
 }
 .flex-container-column{
   display:flex;
   flex-direction:column;
 }
-/* GRID */
-.grid-layout{
+/* GRID for INDEX start */
+.grid-layout-index{
   display:grid;
   grid-template-columns:1fr 80% 1fr;
   grid-template-rows:10% 1fr 1fr 1fr 1fr 1fr 10%;
   height:100%;
 }
-.grid-navbar{
+.grid-navbar-index{
   grid-column: 1 / 4;
   grid-row: 1 / 2;
 }
-.grid-headliner{
+.grid-headliner-index{
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
-.grid-container-boxes{
+.grid-container-boxes-index{
    grid-column: 2 / 3;
    grid-row: 5 / 6;
 }
-.grid-footer{
+.grid-footer-index{
   grid-column: 1 / 4;
   grid-row: 7 / 8;
 }
+/* GRID for INDEX end*/
+
+/* GRID for LOGIN */
+.grid-layout-login{
+  display:grid;
+  height:100%;
+  grid-template-columns: 1fr 80% 1fr;
+  grid-template-rows:10% 1fr 10%;
+}
+.grid-navbar-login{
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+.grid-content-login{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.grid-footer-login{
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+}
+/* GRID for LOGIN end */
+
+
+
 /* BOX */
 .box{
   border:#35424a 1px solid;
