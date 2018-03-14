@@ -49,8 +49,9 @@ inactive +dark/light
 .border-2{
   border:#35424a 3px double;
 }
-
-
+.border-top{
+  border:#e8491d;
+}
 .red{
   background-color:red;
 }
@@ -62,4 +63,7 @@ inactive +dark/light
 }
 .yellow{
   background-color:yellow;
+}
+.purple{
+  background-color:purple;
 }

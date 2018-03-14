@@ -3,6 +3,9 @@
   border-bottom: solid 3px #e8491d;
   position:sticky;
 }
+.navbar-left{
+  border-right: solid 3px #e8491d;
+}
 /* HEADLINER */
 .headliner{
   border: double 3px #35424a;
@@ -14,4 +17,18 @@
 /* FOOTER */
 .footer{
   border-top: solid 3px #e8491d;
+}
+.card-employee{
+  height:150px;
+  width:150px;
+  border: solid 1px #e8491d;
+  background-color:#ffffff;
+  margin:5px;
+}
+.card-product{
+  height:300px;
+  width:300px;
+  border: solid 1px #e8491d;
+  background-color:#ffffff;
+  margin:5px;
 }

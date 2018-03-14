@@ -36,3 +36,9 @@ a{
 .sticky{
   position:sticky;
 }
+.overflow-scroll{
+  overflow:scroll;
+}
+.wrap{
+  flex-flow:wrap;
+}
