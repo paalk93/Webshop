@@ -18,3 +18,9 @@
 .align-items{
   align-items:center;
 }
+.word-break{
+  word-break:break-all;
+}
+.word-wrap{
+  word-wrap:break-word;
+}

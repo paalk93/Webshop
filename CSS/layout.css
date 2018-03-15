@@ -1,13 +1,4 @@
-/*
-body{
-  margin:0px;
-}
-*/
-.page{
-  height:100%;
-  width:100%;
-  margin:0px;
-}
+
 .viewport{
   height:100vh;
   width:100vw;
@@ -91,8 +82,3 @@ body{
   grid-row: 4 / 7;
 }
 /* GRID end*/
-
-/* BOX */
-.box{
-  border:#35424a 1px solid;
-}

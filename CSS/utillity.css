@@ -20,9 +20,16 @@ a{
 .padding-1em{
   padding:1em;
 }
+.margin-center-product-card{
+  margin-left:1px;
+  margin-right:auto;
+}
 .margin-center{
   margin-left:auto;
   margin-right:auto;
+}
+.margin-button-fix{
+  margin-right:5px;
 }
 .margin-left{
   margin-left:10%;
@@ -32,9 +39,6 @@ a{
 }
 .padding-top{
   padding-top:20px;
-}
-.height15{
-  height:15%;
 }
 .sticky{
   position:sticky;
