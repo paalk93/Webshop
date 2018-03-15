@@ -19,8 +19,36 @@
   grid-template-rows:10% 1fr 1fr 1fr 1fr 1fr 10%;
   height:100%;
 }
+/* GRID FOR ADMIN DASHBOARD START */
+.grid-layout-admin{
+  display:grid;
+  grid-template-columns:15% 1fr;
+  grid-template-rows:5% 5% 1fr 5% 1fr 1fr;
+  height:100%;
+}
+.grid-area-admin-sidebar{
+  grid-column: 1 / 2;
+  grid-row: 1 / 7;
+}
+.grid-area-admin-navbar{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.grid-area-admin-top{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+.grid-area-admin-middle{
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+.grid-area-admin-bottom{
+  grid-column: 2 / 3;
+  grid-row: 6 / 7;
+}
+/* GRID FOR ADMIN DASHBOARD END */
 
-/* GRID POSITION FOR USER PAGE START */
+/* GRID in GRID POSITIONS FOR USER PAGE START */
 .grid-layout-user-profile{
   display:grid;
   grid-template-columns: 1fr 70%;
@@ -35,7 +63,7 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
-/* GRID POSITION FOR USER PAGE END */
+/* GRID in GRID POSITIONs FOR USER PAGE END */
 
 /* GRID POSITIONS */
 .grid-navbar{
