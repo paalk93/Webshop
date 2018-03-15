@@ -17,6 +17,9 @@ a{
 .padding{
   padding:5px;
 }
+.padding-1em{
+  padding:1em;
+}
 .margin-center{
   margin-left:auto;
   margin-right:auto;
@@ -41,4 +44,10 @@ a{
 }
 .wrap{
   flex-flow:wrap;
+}
+.height-2em{
+  height:2em;
+}
+.height100{
+  height:100%
 }

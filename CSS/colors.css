@@ -14,7 +14,7 @@ danger- + dark/light
 inactive +dark/light
 */
 .primary{
-  color:#0f0f0f
+  color:#f2f2f2;
 }
 .primary-light{
   color:#ffffff;
