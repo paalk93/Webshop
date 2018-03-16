@@ -1,11 +1,9 @@
 .img{
   max-width:100%;
   max-height:100%;
-  display:block;
-
 }
 .img-portrait-md{
- height:200px;
+ height:150px;
  width:150px;
 }
 .img-landscape-md{
@@ -13,7 +11,7 @@
   width:300px;
 }
 .img-position{
-  object-fit:scale-down;
+  object-fit:fill;
 }
 .img-size{
   width:180px;

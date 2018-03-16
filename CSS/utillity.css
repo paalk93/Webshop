@@ -14,14 +14,14 @@ a{
 }
 
 /* MARGIN AND PADDING*/
-.margin{
+.margin-5px{
   margin:5px;
-}
-.padding{
-  padding:5px;
 }
 .padding-1em{
   padding:1em;
+}
+.margin-1em{
+  margin:1em;
 }
 .margin-center-product-card{
   margin-left:1px;
