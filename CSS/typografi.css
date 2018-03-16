@@ -8,12 +8,19 @@
 .text-align-center{
   text-align:center;
 }
+.text-align-right{
+  text-align:right;
+}
 .flex-justify-center{
   justify-content:center;
   align-items:center;
 }
+.flex-justify-right{
+  justify-content:right;
+}
 .text-float-right{
   float:right;
+  align-items:right;
 }
 .align-items{
   align-items:center;
@@ -23,4 +30,7 @@
 }
 .word-wrap{
   word-wrap:break-word;
+}
+.font-style-flower{
+  font-family: 'Indie Flower', cursive;
 }

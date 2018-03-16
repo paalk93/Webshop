@@ -8,6 +8,9 @@ li ul ol{
 a{
   cursor:pointer;
   text-decoration:none;
+  text-transform:uppercase;
+  color:#f2f2f2;
+  margin:2em;
 }
 
 /* MARGIN AND PADDING*/
@@ -27,9 +30,6 @@ a{
 .margin-center-auto{
   margin-left:auto;
   margin-right:auto;
-}
-.margin-button-fix{
-  margin-right:5px;
 }
 .margin-left10{
   margin-left:10%;

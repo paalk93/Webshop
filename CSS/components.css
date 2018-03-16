@@ -2,6 +2,7 @@
 .navbar{
   border-bottom: solid 3px #e8491d;
   position:sticky;
+  color:#f2f2f2;
 }
 .sidebar-left{
   border-right: solid 3px #e8491d;
