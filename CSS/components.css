@@ -37,5 +37,9 @@
   height:150px;
   width:150px;
   border: solid 1px #35424a;
-  margin:5px;
+}
+.box-dashboard-large{
+  height:250px;
+  width:400px;
+  border: solid 1px #35424a;
 }
