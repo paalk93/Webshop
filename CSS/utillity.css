@@ -5,15 +5,18 @@ li ul ol{
   list-style:none;
   padding-left:0;
 }
-a{
+nav a{
   cursor:pointer;
   text-decoration:none;
   text-transform:uppercase;
   color:#f2f2f2;
-  margin:2em;
+  margin-right:2em;
 }
 
 /* MARGIN AND PADDING*/
+.margin-top4em{
+  margin-top:4em;
+}
 .margin-5px{
   margin:5px;
 }
