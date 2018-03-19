@@ -12,13 +12,17 @@
   display:flex;
   flex-direction:column;
 }
-/* GRID */
+/* FLEX END */
+
+/* GRID LAYOUT */
 .grid-layout-default{
   display:grid;
   grid-template-columns:1fr 80% 1fr;
   grid-template-rows:10% 1fr 1fr 1fr 1fr 1fr 10%;
   height:100%;
 }
+/* GRID LAYOUT END */
+
 /* GRID FOR ADMIN DASHBOARD START */
 .grid-layout-admin{
   display:grid;
@@ -110,7 +114,8 @@
   grid-column: 1 / 4;
   grid-row: 4 / 7;
 }
-/* GRID end*/
+/* GRID POSITION end*/
+
 /*Grid divider for the navbar and for the product card*/
 .grid-navbar-split{
   display:grid;
