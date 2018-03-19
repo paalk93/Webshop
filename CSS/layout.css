@@ -111,9 +111,15 @@
   grid-row: 4 / 7;
 }
 /* GRID end*/
+/*Grid divider for the navbar and for the product card*/
 .grid-navbar-split{
   display:grid;
   height:100%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1 / 2;
+}
+.grid-layout-productcard{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1 / 2;
 }

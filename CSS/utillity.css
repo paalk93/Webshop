@@ -17,6 +17,9 @@ nav a{
 .margin-top4em{
   margin-top:4em;
 }
+.no-margin{
+  margin:0;
+}
 .margin-5px{
   margin:5px;
 }
